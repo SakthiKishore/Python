@@ -12,16 +12,6 @@ print("LET'S PLAY!")
 guesses = [0]
 
 while True:
-    
-    guess = int(input("I'm thinking of a number between 1 and 100.\n  What is your guess? "))
-    
-    if guess < 1 or guess > 100:
-        print('OUT OF BOUNDS! Please try again: ')
-        continue
-        
-    break
-
- while True:
 
     # we can copy the code from above to take an input
     guess = int(input("I'm thinking of a number between 1 and 100.\n  What is your guess? "))
