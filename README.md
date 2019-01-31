@@ -1,2 +1,2 @@
 # Python
-Python scripts - (NetMRI...)
+Python scripts - (NetMRI/miscellaneous)
