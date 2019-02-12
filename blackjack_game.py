@@ -98,7 +98,7 @@ def hit_or_stand(deck,hand):
     global playing
     
     while True:
-        x = input("Would you like to Hit or Stand? Enter 'h' or 's' ")
+        x = input("Would you like to Hit or Stand? Enter 'h' or 's'  ")
         
         if x[0].lower() == 'h':
             hit(deck,hand)  # hit() function defined above
