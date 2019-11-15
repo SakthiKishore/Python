@@ -14,7 +14,7 @@ from samples.vmc.helpers.vmc_task_helper import wait_for_task
 class AddRemoveHosts(object):
     """
     Demonstrates add and remove ESX hosts
-    Sample Prerequisites:
+    Prerequisites:
         - An organization associated with the calling user.
         - A SDDC in the organization
     """
