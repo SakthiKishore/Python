@@ -2,19 +2,31 @@
 
 Web Crawler is a Python script for scraping websites and listing out the links present on each page of the website.
 
-## Description
+## Contents
 
-### `web_crawl.py`
+1. ### `web_crawl.py`
 
 For a given website, this script first finds all the pages present in the website belonging to the same domain. It then visits each of those pages and prints out the page visited and all the links present in that page.
 
-### `test_web_crawl.py`
+2. ### `test_web_crawl.py`
 
 Unittests to check 
 
-1. If the files need to run the test are present.
-2. If the function to return ONLY the local links works as expected
-3. If the function to return ALL the links works as expected
+* If the files need to run the test are present.
+* If the function to return ONLY the local links works as expected
+* If the function to return ALL the links works as expected
+
+3. ### `fake_response.txt`
+
+Contains a sample of http response with a few //a//href tags in text format. Used as mock input for unittest get requests.
+
+4. ### `output_from_fn.txt`
+
+File to write the output returned by the called function
+
+5. ### `expected.txt`
+
+File contains expected function output. Used to compare with the output returned from the function.
 
 ## Installation
 
