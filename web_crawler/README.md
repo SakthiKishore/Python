@@ -8,6 +8,14 @@ Web Crawler is a Python script for scraping websites and listing out the links p
 
 For a given website, this script first finds all the pages present in the website belonging to the same domain. It then visits each of those pages and prints out the page visited and all the links present in that page.
 
+### `test_web_crawl.py`
+
+Unittests to check 
+
+1. If the files need to run the test are present.
+2. If the function to return ONLY the local links works as expected
+3. If the function to return ALL the links works as expected
+
 ## Installation
 
 **Mac OS X**: A version of Python is already installed.  
