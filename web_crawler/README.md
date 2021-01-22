@@ -54,7 +54,7 @@ The script requires the following Python packages and libraries to be imported t
 
 ## General usage information
 
-1. Download the [ZIP package](https://github.com/adobe-type-tools/python-scripts/archive/master.zip) and unzip it.
+1. Download the ZIP package and unzip it.
 2. 
  * The script will run by simply typing `python ` followed by the file name of the script, e.g. `python web_crawler.py`.
  * If the script is in a different directory from which you are trying to run it, you will need to provide the full path to the script’s file, e.g. `python /Users/myself/foldername/web_crawler.py`.
